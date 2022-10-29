@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "指定のアイテムをスニークしながら使用することで、他のブロックに変更することができます。/scripts/config.jsを編集することによって、独自にカスタマイズすることも可能です。このアドオンを使用する際は§2§lベータAPIを有効§rにしてください。",
+    "name": "§2§lブロックチェンジャー",
+    "uuid": "603d2c31-9ef7-4231-8d5a-c243eb94dc0e",
+    "version": [ 0, 0, 2 ],
+    "min_engine_version": [ 1, 19, 0 ]
+  },
+  "modules": [
+    {
+      "description": "NO DESCRIPTION",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "87c9c50b-011b-48e7-b018-0fc8bb8849d4",
+      "version": [ 0, 0, 2 ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.0.0-beta"
+    }
+  ]
+}
